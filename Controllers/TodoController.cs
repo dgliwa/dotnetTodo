@@ -27,6 +27,6 @@ namespace TodoApi.Controllers
         {
             TodoItems = todoItems;
         }
-        public ITodoRepository TodoItems { get; set; }
+        private ITodoRepository TodoItems { get; set; }
     }
 }
